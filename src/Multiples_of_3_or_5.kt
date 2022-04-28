@@ -15,7 +15,9 @@ fun main() {
 }
 
 fun Multiples_of_3_or_5(number: Int): Int {
-    val sum = (1 until number).filter{it%3==0 || it%5==0}.sum()
+    val sum = (1 until number)
+        .filter{it%3==0 || it%5==0}
+        .sum()
     return sum
 }
 
