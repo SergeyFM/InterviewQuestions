@@ -27,7 +27,7 @@ fun Directions_Reduction(arr: Array<String>) = arr.map{it.uppercase()}.toMutable
     var ptr = 0
     var found = false
     do {
-        if(size<2) break
+        if(size<=1) break
         if(ptr==0) found = false
         val two = listOf(this[ptr],this[ptr+1]).sorted().joinToString(" ")
         if(two in "NORTH SOUTH  EAST WEST") {
