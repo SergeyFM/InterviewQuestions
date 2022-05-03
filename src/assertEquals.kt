@@ -6,11 +6,13 @@ fun assertEquals(correct: Any, attempt: Any) {
     val correct2 = when(correct) {
         is Array<*> -> Arrays.toString(correct)
         is IntArray -> Arrays.toString(correct)
+        is LongArray -> Arrays.toString(correct)
         else -> correct.toString()
     }
     val attempt2 = when(attempt) {
         is Array<*> -> Arrays.toString(attempt)
         is IntArray -> Arrays.toString(attempt)
+        is LongArray -> Arrays.toString(attempt)
         else -> attempt.toString()
     }
     
