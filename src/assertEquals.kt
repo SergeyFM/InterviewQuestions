@@ -20,3 +20,7 @@ fun assertEquals(correct: Any, attempt: Any) {
         if(correct2==attempt2) "$attempt2 OK" else "$attempt2 is INCORRECT! (should be $correct2)"
     )
 }
+
+fun assertTrue(v: Boolean) {
+   println("assertTrue: " + if(v) "OK" else "is FALSE!")
+}
