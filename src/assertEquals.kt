@@ -17,7 +17,7 @@ fun assertEquals(correct: Any, attempt: Any) {
     }
     
     println(
-        if(correct2==attempt2) "$attempt2 OK" else "$attempt2 is INCORRECT! (should be $correct2)"
+        if(correct2==attempt2) "${attempt2.take(10)} ... OK" else "$attempt2 is INCORRECT! (should be $correct2)"
     )
 }
 
