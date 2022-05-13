@@ -2,7 +2,7 @@ import java.util.*
 
 // Quick test function
 
-fun assertEquals(correct: Any, attempt: Any) {
+fun assertEquals(correct: Any?, attempt: Any?) {
     val correct2 = when(correct) {
         is Array<*> -> Arrays.toString(correct)
         is IntArray -> Arrays.toString(correct)
