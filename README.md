@@ -1,9 +1,8 @@
-# Interview Questions and Solutions
-Coding interview questions and solutions in Kotlin.
-<br> <br>
-I share a small collection of programming questions with solutions. I hope this will be useful to someone like me who wants to be able to solve this type of tasks, learning a few tricks along the way.
+# Coding Interview Questions and Solutions in Kotlin.
+I share a collection of programming questions with solutions. They're the solutions I could come up with, so beauty and afficiency aren't guaranteed. :) 
+<br> I hope this'll be useful to people like me learning to solve this type of tasks, picking up a few tricks along the way.
 <br>
-Please don't look at my solution until you have completed it yourselve. <br>
+Please don't look at my solution until you finish it yourself. <br>
 Don't submit my solution anywhere as your own. <br>
 <br>
 These examples are only for demonstration and learning purposes aiming improving algorithmic thinking. 
