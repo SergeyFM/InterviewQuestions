@@ -25,22 +25,20 @@ fun main() {
 
 fun Most_frequently_used_words_in_a_text(s: String): List<String> {
     
-    var text = s.map {
+    val text = s.map {
         if (it.isLetter() || it == '\'') it else ' '
     }.joinToString("").lowercase()
     
-    var map = mutableMapOf<String,Int>()
-    text.split(' ').forEach{
-        val word = it.trim()
-        if (word.filter{it != '\''}.length > 0) {
+    val map = mutableMapOf<String,Int>()
+    text.split(' ').forEach{w->
+        val word = w.trim()
+        if (word.any{it != '\''}) {
             map.putIfAbsent(word,0)
             map[word] = map[word]!! + 1
         }
     }
     
-    val ret = map.toList().sortedByDescending{(k,v)->v}
+    return map.toList().sortedByDescending{(_,v)->v}
         .take(3).toMap().keys.toList()
-    
-    
-    return ret
+
 }
