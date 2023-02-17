@@ -1,4 +1,4 @@
-# Coding Interview Questions and Solutions in Kotlin.
+# Coding Questions and Solutions in Kotlin.
 Here I share a collection of programming questions with solutions. These are the solutions I could come up with, beauty and afficiency aren't guaranteed. 
 <br> I hope this'll be useful for people like me learning to solve similar riddles, picking up a few tricks along the way.
 <br>
